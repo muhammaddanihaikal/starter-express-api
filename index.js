@@ -7,7 +7,7 @@ const todoRoute = require("./routes/todoRoute");
 const userRoute = require("./routes/userRoute");
 
 const app = express();
-const port = 3030;
+const port = process.env.PORT || 3030;
 
 // configurasi library
 dotenv.config();
