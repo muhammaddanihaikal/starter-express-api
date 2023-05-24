@@ -5,6 +5,7 @@ const cors = require("cors");
 const db = require("./config/db");
 const todoRoute = require("./routes/todoRoute");
 const userRoute = require("./routes/userRoute");
+const indexRoute = require("./routes/indexRoute");
 
 const app = express();
 const port = process.env.PORT || 3030;
@@ -18,6 +19,7 @@ app.use(bodyParser.json());
 app.use(cors());
 app.use(userRoute);
 app.use(todoRoute);
+app.use(indexRoute);
 
 // cek koneksi db
 (async () => {
