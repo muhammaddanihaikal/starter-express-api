@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "danihaikal9191",
+    "password": "jagungmanis9192",
+    "database": "skilvul_todo2",
+    "host": "db4free.net",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "",
+    "database": "skilvul_todo",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "",
+    "password": "",
+    "database": "",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
